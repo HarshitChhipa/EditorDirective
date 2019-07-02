@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'MCCE';
+  defaultText = '';
+
+  onValueChange(event) {
+    console.log(event.markDown); // this should print markdown which user entered
+    console.log(event.html); // this should print html output for the markdown
+  }
+
+  constructor() {
+  }
+
 }

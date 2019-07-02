@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CcMarkDownDirective } from './directives/cc-mark-down.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CcMarkDownDirective
   ],
   imports: [
     BrowserModule,
